@@ -1,0 +1,86 @@
+{
+  "name":"HolidayHome",
+  "guid":"0F559292-E0C6-40F7-A651-319626F72605",
+  "category":"extension",
+  "group":"phpManufaktur",
+  "vendor":{
+      "name":"phpManufaktur",
+      "url":"https:\/\/phpmanufaktur.de",
+      "mail":"team@phpmanufaktur.de",
+      "address":{
+          "street":"Stockholmer Straße 31",
+          "zip":"13359",
+          "city":"Berlin",
+          "country":"Germany"
+      },
+      "phone":"+49 30 68813647"
+  },
+  "type":"application",
+  "path":"\/extension\/phpmanufaktur\/phpManufaktur\/HolidayHome",
+  "namespace":"phpManufaktur\\HolidayHome",
+  "link":{
+    "about":"\/holidayhome\/about"
+  },
+  "release":{
+    "number":"0.10",
+    "date":"2013-02-14",
+    "status":"beta"
+  },
+  "description":{
+    "en":{
+      "title":"Administration tool for Holiday Homes",
+      "short":"Manage different Holiday Homes with the kitFramework",
+      "long":"Manage different Holiday Homes with the kitFramework",
+      "url":"https:\/\/kit2.phpmanufaktur.de"
+    },
+    "de":{
+        "title":"Verwaltung von Ferienwohnungen",
+        "short":"Verwalten und organisieren sie Ferienwohnungen mit dem kitFramework",
+        "long":"Verwalten und organisieren sie Ferienwohnungen mit dem kitFramework",
+        "url":"https:\/\/kit2.phpmanufaktur.de"
+    }
+  },
+  "require":{
+    "framework":{
+      "release":"0.27"
+    },
+    "extension":{
+        "phpmanufaktur":{
+            "Basic":{
+                "release":"0.81"
+            },
+            "Library":{
+                "release":"0.17"
+            },
+            "Contact":{
+                "release":"2.0.31"
+            },
+            "flexContent":{
+                "release":"0.22"
+            }
+        }
+    }
+  },
+  "setup": {
+      "install":"\/admin\/holidayhome\/setup",
+      "update":"\/admin\/holidayhome\/update",
+      "uninstall":"\/admin\/holidayhome\/uninstall",
+      "icon_path":{
+        "BlackCat":"\/extension\/phpmanufaktur\/phpManufaktur\/HolidayHome\/Data\/Setup\/Icon\/icon.png",
+        "WebsiteBaker":"\/extension\/phpmanufaktur\/phpManufaktur\/HolidayHome\/Data\/Setup\/Icon\/tool_icon.png"
+      }
+  },
+  "license": {
+    "name":"MIT License",
+    "url":"https:\/\/github.com\/phpManufaktur\/HolidayHome\/raw\/master\/LICENSE.md"
+  },
+  "download":{
+    "availability":"public",
+    "agreement":"free",
+    "github":{
+      "organization":"phpManufaktur",
+      "repository":"kfHolidayHome"
+    },
+    "url":"https:\/\/github.com\/phpManufaktur\/HolidayHome"
+  }
+}
